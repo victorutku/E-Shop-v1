@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Milpes E-Shop</title>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css'>
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!-- NAVBAR -->
+<div class='navbar'>
+  <!--<div class='logo'>codecool</div> -->
+  <a href="https://milpes.com/"><img src ="https://milpes.com/wp-content/uploads/2022/09/MilpesLOGOV1000-1.png" class="navbar-brand navbar-logo"></a>
+  <!--<div class='account-container'>
+    <i class="fa fa-user" aria-hidden="true"></i>
+    <div class='cart-desc'>My account</div>
+  </div>
+  <div class='cart-container'>
+    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+    <div class='cart-desc'>0 items</div>
+  </div>-->
+  
+</div>
+
+<!-- INFO BAR -->
+<div class='info-wrapper'>
+  <div class='shipping-container'>
+    <i class="fa fa-truck fa-2x "></i>
+    <div class='info-desc'>Guvenli ve Hizli Kargo</div>
+  </div>
+  <div class='inventory-container'>
+    <i class="fa fa-shopping-basket fa-2x "></i>
+    <div class='info-desc'>Uygun Fiyatlar</div>
+  </div>
+  <div class='insurance-container'>
+   <i class="fas fa-ribbon fa-2x "></i>
+   <div class='info-desc'>2 Yil Garantili</div>
+  </div>
+</div>
+
+<!-- MAIN WRAPPER -->
+<div class='main-wrapper'>
+  <div class="menu">
+    <div class='menu-item SolarInverter'>
+      <div class='menu-item-title'>Solar Inverters</div>
+      <div class='menu-item-number'>2</div>
+    </div>
+    <div class='menu-item OnGrid'>
+      <div class='menu-item-title'>On Grid Inverter</div>
+      <div class='menu-item-number'>4</div>
+    </div>
+    <div class='menu-item OffGrid'>
+      <div class='menu-item-title'>Off Grid Inverter</div>
+      <div class='menu-item-number'>2</div>
+    </div>
+    <div class='menu-item All'>
+      <div class='menu-item-title'>All</div>
+      <div class='menu-item-number'>8</div>
+    </div>
+  </div>
+
+  <div class='products-container'>
+
+    <div class='shop-card' data-cat='Solar Inverter'>
+      <div class="title">
+        Component #0
+      </div>
+      <div class="desc">
+        Solar Inverter
+      </div>
+      <div class="product">
+         <img src="http://placehold.it/350x200" />
+      </div>
+      <div class='cta'>
+       <div class="price">$130</div>
+       <!-- Contact Us Popup -->
+       <a href="#" id="contact" class="button big">Contact Us</a>
+       <div class="cd-popup contact" role="alert">
+        <form name="contactform" id="contactform" class="contact-form">
+          <div class="cd-popup-container" style=""> <!-- empty ruleset to fix overlapping and x button not functioning -->
+            <p style="">
+              <a href="" class="cd-popup-close cd-close-button">
+                <i class="fa fa-times" style="pointer-events:none;"></i>
+              </a>
+            </p>
+      
+            <div class="name">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" />
+            </div>
+            <div class="email">
+              <label for="email">Email</label>
+              <input type="text" id="email" name="email" />
+            </div>
+            <div class="message">
+              <label for="message">Message</label>
+              <textarea name="message" id="message" name="message"></textarea>
+            </div>
+            <br>
+            <div style="text-align:left">
+              <input type="checkbox" id="human" name="human" />
+              <label for="human">I am a human and not a robot.</label>
+            </div>
+            <br>
+            <div class="submit">
+              <p class="user-message" id="contactblurb"> Questions, suggestions, and general comments are all welcome!</p>
+              <input type="submit" name="submit" id="submit" value="Send" />
+            </div>
+          </div>
+        </form>
+      </div>
+      
+      <div class="cd-popup notification" role="alert">
+        <div class="cd-popup-container">
+          <a href="" class="cd-popup-close cd-close-button"><i class="fa fa-times" style="pointer-events:none;"></i></a>
+          <p>
+            <h3 id="notification-text">Thanks for getting in touch!</h3>
+          </p>
+        </div>
+      </div>
+      </div>
+    </div>
+
+    <div class='shop-card' data-cat='Solar Inverter'>
+      <div class="title">
+        Component #1
+      </div>
+      <div class="desc">
+        Solar Inverter
+      </div>
+      <div class="product">
+         <img src="http://placehold.it/350x200" />
+      </div>
+      <div class='cta'>
+        <div class="price">$220</div>
+        
+      </div>
+    </div>
+
+    <div class='shop-card' data-cat='Off Grid Inverter'>
+      <div class="title">
+        Component #2
+      </div>
+      <div class="desc">
+        Off Grid Inverter
+      </div>
+      <div class="product">
+         <img src="http://placehold.it/350x200" />
+      </div>
+      <div class='cta'>
+        <div class="price">$90</div>
+        <button class="button">Buy</button>
+      </div>
+    </div>
+    
+    <div class='shop-card' data-cat='Off Grid Inverter'>
+      <div class="title">
+        Component #3
+      </div>
+      <div class="desc">
+        Off Grid Inverter
+      </div>
+      <div class="product">
+         <img src="http://placehold.it/350x200" />
+      </div>
+      <div class='cta'>
+        <div class="price">$220</div>
+        <button class="button">Buy</button>
+      </div>
+    </div>
+    
+    <div class='shop-card' data-cat='On Grid Inverter'>
+      <div class="title">
+        Component #4
+      </div>
+      <div class="desc">
+        On Grid Inverter
+      </div>
+      <div class="product">
+         <img src="http://placehold.it/350x200" />
+      </div>
+      <div class='cta'>
+        <div class="price">$220</div>
+        <button class="button">Buy</button>
+      </div>
+    </div>
+    
+    <div class='shop-card'data-cat='On Grid Inverter'>
+      <div class="title">
+        Component #5
+      </div>
+      <div class="desc">
+        On Grid Inverter
+      </div>
+      <div class="product">
+         <img src="http://placehold.it/350x200" />
+      </div>
+      <div class='cta'>
+        <div class="price">$220</div>
+        <button class="button">Buy</button>
+      </div>
+    </div>
+    
+    <div class='shop-card'data-cat='On Grid Inverter'>
+      <div class="title">
+        Component #6
+      </div>
+      <div class="desc">
+        On Grid Inverter
+      </div>
+      <div class="product">
+         <img src="http://placehold.it/350x200" />
+      </div>
+      <div class='cta'>
+        <div class="price">$220</div>
+        <button class="button">Buy</button>
+      </div>
+    </div>
+    
+    <div class='shop-card'data-cat='On Grid Inverter'>
+      <div class="title">
+        Component #7
+      </div>
+      <div class="desc">
+        On Grid Inverter
+      </div>
+      <div class="product">
+         <img src="https://miro.medium.com/v2/resize:fit:1358/0*NJ-VNA-tlDzr2caT" />
+      </div>
+      <div class='cta'>
+        <div class="price">$220</div>
+        <button class="button">Buy</button>
+      </div>
+    </div>
+   
+
+  </div>
+</div>
+
+<div class='modal'>
+  <div>asdasdas asd as </div>
+  <div>asdasdas asd as </div>
+  <div>asdasdas asd as </div>
+  <div>asdasdas asd as </div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script><script  src="./script.js"></script>
+  <script data-cfasync="false" type="text/javascript"
+  src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
+
+</body>
+</html>
